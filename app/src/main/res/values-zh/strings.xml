@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">大树新的一天</string>
+    <string name="set_password_menu_item">设置密码</string>
+    <string name="new_diary_edit_text_hint">在这里开始记录您美好的一天</string>
+    <string name="new_diary_add_diary_button">写好了</string>
+    <string name="new_diary_cancel_button">算了</string>
+    <string name="diary_page_deault_text">你Y啥都没写！</string>
+    <string name="diary_list_add_diary_button">写点什么吧</string>
+    <string name="diary_list_search_hint">寻寻觅觅</string>
+    <string name="diary_page_edit_diary_button">我要改</string>
+    <string name="diary_page_back_button">飘回去</string>
+    <string name="password_enter_pass_word_text">请输入您的密码</string>
+    <string name="set_password_cancel_button_text">取消</string>
+    <string name="set_password_clear_button_text">清除</string>
+    <string name="set_password_done_button_text">确定</string>
+    <string name="set_password_enter_4_digits_text">请输入4位数密码</string>
+    <string name="set_password_enter_old_password_text">请输入您的旧密码</string>
+    <string name="set_password_enter_new_password_text">请输入您的新密码</string>
+    <string name="password_wrong_password">密码都记不住啊亲？！</string>
+    <string name="diary_list_no_diary_found">主人，找不到您要的东西</string>
+    <string name="diary_list_search_no_text">什么都没写，您想搜空气啊！</string>
+    <string name="diary_list_search_no_found">什么都没找到呢</string>
+    <string name="diary_list_alert_delete">您确定要这么抛弃它嘛？</string>
+    <string name="diary_list_alert_delete_title">再见，日记</string>
+    <string name="diary_list_diary_deleted">您好狠！</string>
+    <string name="diary_list_nothing_deleted">感谢您手下留情QAQ</string>
+    <string name="diary_page_edit">我要改</string>
+    <string name="alert_no">算了</string>
+    <string name="diary_page_done">改好了</string>
+    <string name="alert_yes">删！</string>
+    <string name="diary_list_diaries_found">篇日记被发现</string>
+    <string name="no_audio_clip">找不到您美妙的声音</string>
+    <string name="audio_file_deleted">文件已被删</string>
+    <string name="date_picker_title">今天是几号</string>
+    <string name="share_button">分享</string>
+    <string name="shared">分享是一种美德;)</string>
+    <string name="diary_obtained_from_parse">分享的日记飘来了</string>
+    <string name="already_on_parse">此日记已在云端</string>
+    <string name="share_diglog_title">分享快乐</string>
+    <string name="share_dialog_message">轻轻一点，快乐漂洋过海</string>
+    <string name="share_dialog_yes">我愿意</string>
+    <string name="share_dialog_no">再考虑一下</string>
+    <string name="select_image_dialog_title">选择靓照</string>
+    <string name="select_image_dialog_SD">找一张</string>
+    <string name="select_image_dialog_camera">照一张</string>
+
+</resources>

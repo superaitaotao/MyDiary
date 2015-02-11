@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="25dp">
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/photo_image_view"
+            android:padding="3dp"/>
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/content_summary"
+        android:text="hahaha..."
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="left"
+        android:paddingLeft="5dp"
+        android:layout_weight="1"
+        android:textColor="#ff000000"
+        android:ellipsize="end"
+        android:maxLines="1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 11/10/2014"
+                android:textColor="#ff000000"
+                android:paddingRight="20dp"
+                android:gravity="center_vertical"
+                android:id="@+id/date_text_view"/>
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/got_audio_image"
+                />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/from_cloud_image"
+                />
+
+
+
+
+            </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

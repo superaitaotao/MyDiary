@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg1">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12/10/2014"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:id="@+id/date_text_view"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="15dp"
+        >
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ha_ha"
+        android:id="@+id/photo_image_view"
+
+        />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:id="@+id/play_pause_button"
+        android:background="@drawable/play_icon"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="2dp"
+        android:layout_gravity="bottom"
+        />
+
+    <Button
+        android:layout_gravity="bottom"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:id="@+id/restart_play_button"
+        android:background="@drawable/restart_play_icon"
+
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="10dp"
+        />
+
+        <Button
+
+            android:layout_gravity="bottom"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:id="@+id/share_button"
+            android:background="@drawable/from_cloud"
+            android:layout_marginLeft="5dp"
+            />
+
+
+    </TableRow>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <EditText
+            android:padding="10dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text = "@string/diary_page_deault_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/content_edit_text"
+            android:textColor="#000000"
+            android:background="@android:color/transparent"
+            />
+
+    </ScrollView>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:layout_marginBottom="5dp">
+
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/edit_diary_button"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:text="@string/diary_page_edit_diary_button"
+                android:background="@drawable/diary_page_button"
+                android:layout_marginRight="5dp"
+                />
+
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/back_button"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:text="@string/diary_page_back_button"
+                android:background="@drawable/diary_page_button"
+                android:layout_marginLeft="5dp"
+                />
+            </TableRow>
+
+</LinearLayout>
